@@ -64,4 +64,22 @@ English language skills: level A1(Elementary)
 
 [Angular-project, together with a teacher](https://shop-angular-a9ca0.firebaseapp.com) 
 
+***
+**Personal qualities:**
+
+Open, balanced, self-organized.
+Regardless of the situation and the tasks set, I show diligence and focus on results, I appreciate teamwork, I am emotionally stable, I strive for constant self-learning and the development of professional skills
+
+***
+
+**Additional information:**
+
+**Marital status:** married.
+
+**Children:** No.
+
+**Driver's license:** yes (cat. B).
+
+**Possibility of business trips:** yes.
+
 
