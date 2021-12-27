@@ -2,6 +2,7 @@
 # Purpose: RS school
 ***
 
+[My foto](https://github.com/artem-oleynikov)
 
 **Name:** Oleynikov Artem Dmitrievich
 
@@ -56,7 +57,7 @@ Manager of the Mass Business Direct Sales Department;
 - HTML5/CSS3 - working with forms, tables, fixed layout, adaptive layout (flexbox)
 - JavaScript basics (primitives, operators, loops, functions, data types, objects, arrays, DOM)
 - Angular 2 - typescript, components and modules, directives and services.
-English language skills: level A1(Elementary)
+- English language skills: level A1(Elementary)
 
 **Portfolio of works during the course:**
 
