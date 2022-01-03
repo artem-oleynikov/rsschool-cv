@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+ 
+  body {
+ 
+   font-family: 'Cormorant Garamond', serif;
+   background-color: rgb(51, 48, 48);
+  }
+ 
+  h4{
+   font-family: 'Pushster', cursive;
+   font-size: 20px;
+   line-height: 50px;
+   text-align: center;
+  
+  }
+ 
+  h3,li {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 20px;
+   line-height: 50px;
+   text-align: center;
+  }
+ 
+  p {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 20px;
+   line-height: 50px;
+   text-align: center;
+  }
+ 
+  span {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 20px;
+   font-weight: bold;
+   
+  }
+   
+  .border {
+    border-color:rgb(64, 75, 179);
+  }
+ 
+  @keyframes font-color {
+    0% {
+      color: whitesmoke;
+    }
+    25% {
+      color:red;
+    }
+    50% {
+      color: purple;
+    }
+    75% {
+      color:rgb(64, 75, 179) ;
+    }
+    100% {
+      color: whitesmoke;
+    }
+  }
+ 
+  .change-color {
+    animation: font-color 4s infinite;
+  }
+ 
+ 
+   .container-cv {
+       height: 90%;
+       width: 90%;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap; 
+       justify-content: space-between;
+       margin: auto;
+       background: linear-gradient(to right, red, purple);
+       padding: 2px;
+   }
+ 
+   .wrapper {
+   background-color: #222;
+   color: white;
+   }
+   
+   .header {
+     min-height: 100px;
+     border: 2px solid linear-gradient(to right, red, purple);
+     display: flex;
+     flex-wrap: wrap; /*перенос строки */
+     justify-content:space-around;
+     
+   }
+   
+   
+   .header .menu ul {
+     display: flex;
+     list-style: none;
+   }
+ 
+   @media screen and (max-width:700px) {
+     .header .menu ul {
+       
+       flex-direction: column;
+     }
+   }
+   
+   .header .menu ul li {
+     margin: 10px 10px;
+   }
+   
+   .header .menu ul a {
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+     color: gray;
+   }
+ 
+   /* .header .menu ul a:hover {
+    
+     color: bisque;
+   } */
+   
+ 
+   .hello {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     min-height: 300px;
+     
+     
+   }
+ 
+   .photo {
+     width: 300px;
+     height: 250px;
+     border-radius: 50%;
+     opacity: 0.8;
+     overflow: scroll;
+     
+     
+   }
+ 
+   .name {
+     font-family: 'Crete Round', serif;
+     font-size: 30px;
+     margin: 100px;
+     box-shadow: 2px 2px 8px;
+     
+   }
+ 
+   .text {
+     font-family: 'Crete Round', serif;
+     font-size: 30px;
+   }
+ 
+   .education, .work, .skills ul {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+
+   .work ul li{
+       list-style:none;
+   }
+
+
+   @media screen and (max-width:1000px) {
+     ul li {
+        list-style: none;
+    }
+       
+   }
+  
+ 
+   .contact{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+   }
+ 
+   .contact nav ul{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     
+   }
+ 
+   .icons {
+     margin: 10px;
+     
+   }
+ 
+ .logo {
+   flex-basis: 200px;
+ }
+ 
+ /* .btn{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+ } */
+
+ 
