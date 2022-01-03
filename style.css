@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     
-     
+  }
+
+  html {
+    scroll-behavior: smooth; 
   }
  
   body {
@@ -185,3 +188,5 @@
   bottom: 0;
   right: 0;
  } */
+
+ 
